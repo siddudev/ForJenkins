@@ -2,6 +2,7 @@
  * Hello world! 
  *   
  */  
+import java.util.*;
 public class App    
 {  
     public static void printPattern(int n)
@@ -31,7 +32,8 @@ public class App
     }
     public static void main( String[] args )
     {
-        int n = 6;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         printPattern(n);
     }
 }
