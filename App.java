@@ -33,7 +33,7 @@ public class App
     public static void main( String[] args )
     {
         int n = 6;
-        //printPattern(n);
-        System.out.println("Hello world");
+        printPattern(n);
+        //System.out.println("Hello world");
     }
 }
